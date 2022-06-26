@@ -6,7 +6,7 @@
 <span style="color:#e34234">Дождитесь загрузки страницы</span> [здесь…](https://a374ru.github.io/[orthodox_easter_list](https://a374ru.github.io/orthodox_easter_list/DatesOfOrthodoxEaster)
   
   
-![Orthodox Easter](<svg
+![OrthodoxEaster](<svg
    width="511.00003"
    height="511.00003"
    viewBox="0 0 135.20209 135.20209"
@@ -26,7 +26,7 @@
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:dc="http://purl.org/dc/elements/1.1/">
   <title
-     id="title66">Шаблон 262144px</title>
+     id="title66">XB 1-9999</title>
   <sodipodi:namedview
      id="namedview71"
      pagecolor="#fffafd"
