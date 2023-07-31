@@ -1,7 +1,19 @@
 <span style="color:#e34234">П</span>АСХАЛИЯ ПРАВОСЛАВНАЯ
 ===
 
-<span style="cursor: pointer; position: fixed; background-color: red;top: 50px; right: 55px; width: 2em;height: 2em;border-radius: 50%; box-shadow: 0px 0px 7px #0007;"><a href="#easter" style="color:#e34234; display: inherit;"> </a></span>
+<span style="cursor: pointer;
+    position: fixed;
+    display: flex;
+    background-color: #e34234;
+    top: 1.7rem;
+    right: 1.7rem;
+    width: 3rem;
+    height: 3rem;
+    /* border-radius: 50%; */
+    box-shadow: 0px 0px 7px #0004;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.7rem;"><a href="#easter" style="color:#e34234; display: inherit;">XB</a></span>
 
 	От Рождества Христова… до 9999 года.
 	Даты по современному григорианскому календарю.
