@@ -13,7 +13,7 @@
     box-shadow: 0px 0px 7px #0004;
     align-items: center;
     justify-content: center;
-    font-size: 3.7rem;"><a href="#easter" style="color:#ffc; display: inherit;">XB</a></span>
+    font-size: 3.7vw;"><a href="#easter" style="color:#ffc; display: inherit;">XB</a></span>
 
 	От Рождества Христова… до 9999 года.
 	Даты по современному григорианскому календарю.
