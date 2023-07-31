@@ -1,8 +1,11 @@
 <span style="color:#e34234">П</span>АСХАЛИЯ ПРАВОСЛАВНАЯ
 ===
 
+<div id="XB" style="position: fixed; background-color:red; top: 55px; right: 55px;  width:2em; height:2em; font-color: #fff;>XB</div>
+
 	От Рождества Христова… до 9999 года.
 	Даты по современному григорианскому календарю.
+ 	
 
 
  - (В год **1**)  Март 27,
