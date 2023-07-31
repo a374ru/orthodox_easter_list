@@ -1,15 +1,7 @@
 <span style="color:#e34234">П</span>АСХАЛИЯ ПРАВОСЛАВНАЯ
 ===
 
-<div id=”XB” style="cursor: pointer;
-    position: fixed;
-    background-color: red;
-    top: 50px;
-    right: 55px;
-    width: 2em;
-    height: 2em;
-    border-radius: 50%;
-    box-shadow: 0px 0px 7px #0007;"><a href="#easter"></a></div>
+<span style="cursor: pointer; position: fixed; background-color: red;top: 50px; right: 55px; width: 2em;height: 2em;border-radius: 50%; box-shadow: 0px 0px 7px #0007;"><a href="#easter"></a></span>
 
 	От Рождества Христова… до 9999 года.
 	Даты по современному григорианскому календарю.
