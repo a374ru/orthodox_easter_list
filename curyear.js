@@ -17,7 +17,7 @@ window.addEventListener("load", function() {
 
     easterelement = new Date(`${dt}/${indexMontfElement}/${dateElement}`);
 
-    if (moment.getTime() == easterelement.getTime()) {
+    if (moment.getTime() > easterelement.getTime()) {
         
         li[dt - 1].setAttribute('style', 'color:#e3423499; font-size: 1.3em');
 
