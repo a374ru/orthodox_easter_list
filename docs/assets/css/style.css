@@ -19,6 +19,7 @@ main {
 }
 .one {
 	max-width: 800px;
+	min-width: 320px;
 	margin: auto;
 }
 
@@ -78,6 +79,6 @@ a:hover{color:#e34234;}
 	.easter {
 		font-size: clamp(1.3em, 3vw, 2em);
 		/* width:fit-content; */
-		margin-right: 1em;
+		/* margin-right: 1em; */
 	}
 }
