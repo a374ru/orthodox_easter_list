@@ -22,14 +22,14 @@ window.addEventListener("load", function() {
         li[dt - 1].setAttribute('style', 'color:#e3423499; font-size: 1.3em');
 
         li[dt].setAttribute('style', 'color:#fff; font-size: 1.7em; background: rgb(227,66,52); background: linear-gradient(270deg, rgba(227,66,52,1) 0%, rgba(54,4,0,1) 100%); padding: 12px; box-shadow: 0px 0px 7px #0007;');
-        li[dt].innerHTML += " <span style='color:#fca9a9; font-size: .7em; '>ожидаемая Пасха</span>";
+        li[dt].innerHTML += " <span style='color:#fca9a9; font-size: .7em; '>ожидаемая православная Пасха</span>";
 
     } else {
 
     li[dt - 1].setAttribute('style', 'color:#e34234; font-size: 1.7em');
         li[dt-1].setAttribute('style', 'color:#fff; font-size: 1.7em; background: rgb(227,66,52); background: linear-gradient(270deg, rgba(227,66,52,1) 0%, rgba(54,4,0,1) 100%); padding: 12px;');
 
-        li[dt - 1].innerHTML += " <span style='color:#fca; font-size: .7em; '>ожидаемая Пасха</span>";
+        li[dt - 1].innerHTML += " <span style='color:#fca; font-size: .7em; '>ожидаемая православная Пасха</span>";
 
     }
 
