@@ -42,7 +42,7 @@ window.addEventListener("load", function () {
         li[dt].innerHTML +=
             " <span style='color:#fca9a9; font-size: .7em; '>ожидаемая православная Пасха</span>";
     } else {
-        li[dt - 1].setAttribute("style", "last-easter");
+        li[dt - 1].setAttribute("class", "easter");
         li[dt - 1].innerHTML +=
             " <span style='color:#fca; font-size: .7em; '>ожидаемая православная Пасха</span>";
     }

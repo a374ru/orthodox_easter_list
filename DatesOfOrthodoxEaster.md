@@ -10020,4 +10020,4 @@
  - (в год **9998**)  Июнь  7,
  - (в год **9999**)  Июнь 27.
 
-<script src="assets/curyear.js"></script>
+<script src="assets/js/curyear.js"></script>
