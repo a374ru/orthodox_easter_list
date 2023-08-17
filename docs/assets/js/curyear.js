@@ -33,11 +33,11 @@ window.addEventListener("load", function () {
         li[dt - 1].setAttribute("class", "last-easter");
         li[dt].setAttribute("class", "easter");
         li[dt].innerHTML +=
-            " <span style='color:#fca9a9; font-size: .7em; '>ожидаемая православная Пасха</span>";
+            " <span style='color:#fca9a9; font-size: .7em; '>ожидаемая Пасха</span>";
     } else {
         li[dt - 1].setAttribute("class", "easter");
         li[dt - 1].innerHTML +=
-            " <span style='color:#fca; font-size: .7em; '>ожидаемая православная Пасха</span>";
+            " <span style='color:#fca; font-size: .7em; '>ожидаемая Пасха</span>";
     }
     li[dt - 4].setAttribute("id", "easter");
     // document.location.replace('#easter');
