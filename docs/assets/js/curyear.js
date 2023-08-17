@@ -22,7 +22,7 @@ window.addEventListener("load", function () {
     dt = moment.getFullYear();
     mainElement = li[dt - 1];
     elementText = mainElement.textContent;
-    dateElement = Number(elementText.match(/[0-9]*,/)[0].split(",")[0]);
+    dateElement = Number(elementText.match(/[\d]{2}/)[0].split(",")[0]);
     for (var el of arr) {
         if (elementText.search(el) > -1) {
             indexMontfElement = arr.findIndex((i) => i == el);

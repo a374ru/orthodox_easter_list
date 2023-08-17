@@ -7,15 +7,20 @@
 /* четверг, 17 августа 2023 г. 21:12:21 (MS */
 
 body{
-margin:3em;
+margin:2em;
+	background-color:#fff7f7;
 }
 
-.markdown-body{
+main{
+display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
 
-	min-width: 77%;
-	max-width:44%;
-	margin:auto;
-	
+}
+.one{
+    max-width: 800px;
+    margin: auto;
 }
 
 .click {
@@ -34,6 +39,9 @@ margin:3em;
 	font-size: 3.7vw;
 	/* flex-wrap: wrap; */
 }
+li{
+list-style: none;
+}
 
 .last-easter {
 	color: #e34234;
@@ -49,19 +57,16 @@ margin:3em;
 		rgba(227, 66, 52, 1) 0%,
 		rgba(54, 4, 0, 1) 100%
 	);
-	padding: 2%;
+		padding: 11% 10%;
 	box-shadow: 0px 0px 7px #0007;
 }
 
 @media (max-width: 800px) {
 
 	.easter {
-		font-size: clamp(1em, 3vw, 1.7em);
-	width:fit-content;
+		font-size: clamp(1.3em, 3vw, 2em);
+	/* width:fit-content; */
+	margin-right: 1em;
 	}
-	.markdown-body{
 
-	min-width: fit-content;
-
-	}
 }
