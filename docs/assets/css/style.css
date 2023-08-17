@@ -6,6 +6,14 @@
 
 /* четверг, 17 августа 2023 г. 21:12:21 (MS */
 
+.markdown-body{
+
+	min-width: fit-content;
+	max-width:44%;
+	margin:auto
+	
+}
+
 .click {
 	cursor: pointer;
 	position: fixed;
@@ -20,7 +28,7 @@
 	align-items: center;
 	justify-content: center;
 	font-size: 3.7vw;
-	flex-wrap: wrap;
+	/* flex-wrap: wrap; */
 }
 
 .last-easter {
@@ -44,5 +52,6 @@
 @media (max-width: 800px) {
 	.easter {
 		font-size: clamp(1em, 3vw, 1.7em);
+	width:fit-content;
 	}
 }
