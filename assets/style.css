@@ -1,0 +1,18 @@
+/** @format */
+
+.last-easter {
+	color:#e34234; font-size: 1.3rem
+}
+
+.easter {
+	color: #fff;
+	font-size: clamp(1em, 3vw, 1.7em);
+	background: rgb(227, 66, 52);
+	background: linear-gradient(
+		270deg,
+		rgba(227, 66, 52, 1) 0%,
+		rgba(54, 4, 0, 1) 100%
+	);
+	padding: 12px;
+	box-shadow: 0px 0px 7px #0007;
+}
