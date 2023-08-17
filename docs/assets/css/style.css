@@ -8,7 +8,7 @@
 
 .markdown-body{
 
-	min-width: fit-content;
+	min-width: 77%;
 	max-width:44%;
 	margin:auto
 	
@@ -50,8 +50,14 @@
 }
 
 @media (max-width: 800px) {
+
 	.easter {
 		font-size: clamp(1em, 3vw, 1.7em);
 	width:fit-content;
+	}
+	.markdown-body{
+
+	min-width: fit-content;
+
 	}
 }
