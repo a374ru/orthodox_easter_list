@@ -98,9 +98,9 @@ a:hover {
 @media (max-width: 800px) {
 	.easter {
 		font-size: clamp(1.2em, 2vw, 2.2em);
-		width: fit-content;
+		/* width: fit-content;
 		margin-right: 3em;
-		padding: 12px;
+		padding: 12px; */
 	}
 	.clickXB {
 		width: 4em;
