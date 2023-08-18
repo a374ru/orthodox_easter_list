@@ -41,7 +41,7 @@ window.addEventListener("load", function () {
         li[dt - 1].setAttribute("class", "last-easter");
         li[dt].setAttribute("class", "easter");
         li[dt].innerHTML +=
-            " <span style='color:#fca9a9; font-size: .7em; '>ожидаемая Пасха</span>";
+            " <br><span style='color:#fca9a9; font-size: .7em; '>Ожидаемая Пасха</span>";
     } else {
         li[dt - 1].setAttribute("class", "easter");
         li[dt - 1].innerHTML +=
