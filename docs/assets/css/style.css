@@ -9,9 +9,7 @@
 body {
 	margin: 0;
 	background-color: #fff7f7;
-/* 	height: 100vh; */
-
-	
+	/* 	height: 100vh; */
 }
 
 main {
@@ -52,8 +50,8 @@ main {
 }
 li {
 	list-style: none;
-    font-size: 1.2em;
-    color: rgb(91, 91, 91);
+	font-size: 1.2em;
+	color: rgb(91, 91, 91);
 }
 h1 {
 	font-weight: 800;
@@ -92,12 +90,13 @@ a:hover {
 
 @media (max-width: 800px) {
 	.easter {
-		font-size: clamp(1.3em, 3vw, 2em);
-		/* width:fit-content; */
-		/* margin-right: 1em; */
+		font-size: clamp(1.2em, 2vw, 2.2em);
+		width: fit-content;
+		margin-right: 3em;
+		padding: 12px;
 	}
 	.clickXB {
-	width: 4em;
-	height: 4em;
+		width: 4em;
+		height: 4em;
 	}
 }
