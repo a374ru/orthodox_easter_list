@@ -16,39 +16,50 @@ const arr = [
 ];
 
 window.addEventListener("load", function () {
+
     li = document.querySelectorAll("li");
     moment = new Date();
     numberMontf = moment.getMonth();
-    dt = moment.getFullYear();
-    mainElement = li[dt - 1];
-    li.forEach(liContent => {
-        a = liContent.textContent.match(/[0-9]{4}/);
-        if (a == numberMontf) {
-            alert(a);
+    curentYear = moment.getFullYear();
+
+    //=-=-=-=-=-=-=-=-=-=-=-=-=-
+    li.forEach(node => {
+        let node3 = node.textContent.match(curentYear - 3);
+        if (node3) {
+            //anchor for scroll
+            node.setAttribute("id", "easter");
         }
+
+        yearElemet = node.textContent.match(curentYear);
+
+        if (yearElemet != null) {
+            dateElement = Number(node.textContent.match(/[\d]{2}/)[0].split(",")[0]);
+            for (var el of arr) {
+                if (node.textContent.search(el) > -1) {
+                    indexMontfElement = arr.findIndex((i) => i == el);
+                }
+            }
+            easterElement = new Date(`${yearElemet}/${indexMontfElement}/${dateElement}`);
+            //=-=-=-=-=-=-=-=-=-=-=-=-=-
+            if (moment.getTime() < easterElement.getTime()) {
+                node.setAttribute("class", "last-easter");
+                node.setAttribute("class", "easter");
+                node.innerHTML +=
+                    " <br><span style='color:#fca9a9; font-size: .7em; '>Ожидаемая Пасха</span>";
+            } else {
+                node.setAttribute("class", "last-easter");
+            }
+        }
+
+        node2 = node.textContent.match(curentYear + 1);
+        if (node2 && moment.getTime() > easterElement.getTime()) {
+            node.setAttribute("class", "easter");
+            node.innerHTML +=
+                " <br><span style='color:#fca; font-size: .7em; '>Ожидаемая Пасха</span>";
+        }
+
     });
-
-
-    elementText = mainElement.textContent;
-    dateElement = Number(elementText.match(/[\d]{2}/)[0].split(",")[0]);
-    for (var el of arr) {
-        if (elementText.search(el) > -1) {
-            indexMontfElement = arr.findIndex((i) => i == el);
-        }
-    }
-    easterelement = new Date(`${dt}/${indexMontfElement}/${dateElement}`);
-    if (moment.getTime() > easterelement.getTime()) {
-        li[dt - 1].setAttribute("class", "last-easter");
-        li[dt].setAttribute("class", "easter");
-        li[dt].innerHTML +=
-            " <br><span style='color:#fca9a9; font-size: .7em; '>Ожидаемая Пасха</span>";
-    } else {
-        li[dt - 1].setAttribute("class", "easter");
-        li[dt - 1].innerHTML +=
-            " <span style='color:#fca; font-size: .7em; '>ожидаемая Пасха</span>";
-    }
-    li[dt - 4].setAttribute("id", "easter");
-    // document.location.replace('#easter');
-    el = document.querySelector("#easter");
-    el.scrollIntoView();
+    // el = document.querySelector("#easter");
+    // el.scrollIntoView();
+    document.location.replace('#easter');
 });
