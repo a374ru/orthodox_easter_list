@@ -97,7 +97,7 @@ a:hover {
 
 @media (max-width: 800px) {
 	.easter {
-		font-size: clamp(1.2em, 2vw, 2.2em);
+		font-size: clamp(1.4em, 2vw, 2.2em);
 		/* width: fit-content;
 		margin-right: 3em;
 		padding: 12px; */
