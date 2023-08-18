@@ -8,26 +8,21 @@
 
 body {
 	margin: 0;
-	/* 	height: 100vh; */
-
-
+	/* height: 100vh; */
 }
+
 
 main {
 	display: flex;
 	flex-wrap: nowrap;
 	flex-direction: column;
 	align-items: center;
-
-
 }
 
-section{
-	margin: 0 2em;
-
+section {
+	margin: 0 2em 10em;
 }
 .one {
-
 	display: flex;
 	flex-direction: column;
 	align-content: center;
@@ -41,20 +36,28 @@ section{
 	cursor: pointer;
 	display: flex;
 	position: fixed;
-	background-color: #e34234;
+	background-color: #fe34230f;
 	top: 5vw;
 	right: 5vw;
-	width: 13vw;
-	height: 13vw;
+	width: 3em;
+	height: 3em;
 	/* border-radius: 50%; */
-	box-shadow: 0px 0px 7px #0004;
+	/* box-shadow: 0px 0px 3px #0007; */
 	align-items: center;
 	justify-content: center;
-	font-size: 3.7vw;
-	color: #ffd600;
+	font-size: 2.7vw;
+	color: #ffffff;
 	/* flex-wrap: wrap; */
+	border-radius: 50%;
 	border-color: #0000;
 }
+
+button.clickXB:hover {
+	color: #fbffa9;
+	background-color: #e34234;
+	box-shadow: 0px 0px 11px #ffe500;
+}
+
 li {
 	list-style: none;
 	font-size: 1.2em;
@@ -84,6 +87,7 @@ a:hover {
 
 .easter {
 	color: #fff;
+	opacity: .88;
 	font-size: clamp(1em, 3vw, 1.7em);
 	background: rgb(227, 66, 52);
 	background: linear-gradient(
@@ -103,13 +107,14 @@ a:hover {
 		padding: 12px; */
 	}
 	.clickXB {
+		background-color: #e34234;
 		width: 4em;
 		height: 4em;
 	}
-	h1{
-	font-size: x-large;
+	h1 {
+		font-size: x-large;
 	}
-	p{
-	font-size: large;
+	p {
+		font-size: large;
 	}
 }
