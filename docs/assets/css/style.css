@@ -29,6 +29,7 @@ main {
 	/* min-width: 97%; */
 	margin: auto;
 	align-items: flex-start;
+	padding: 0 2em;
 }
 
 .clickXB {
