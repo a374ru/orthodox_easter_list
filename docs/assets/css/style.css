@@ -7,8 +7,11 @@
 /* четверг, 17 августа 2023 г. 21:12:21 (MS */
 
 body {
-	/* margin: 2em; */
+	margin: 0;
 	background-color: #fff7f7;
+/* 	height: 100vh; */
+
+	
 }
 
 main {
@@ -16,46 +19,57 @@ main {
 	flex-wrap: nowrap;
 	flex-direction: column;
 	align-items: center;
+	height: 100vh;
 }
 .one {
-	width: 60vw;
-	min-width: 97%;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	max-width: 800px;
+	/* min-width: 97%; */
 	margin: auto;
+	align-items: flex-start;
 }
 
-.click {
+.clickXB {
 	cursor: pointer;
-	position: fixed;
 	display: flex;
+	position: fixed;
 	background-color: #e34234;
 	top: 5vw;
 	right: 5vw;
-	width: 6vw;
-	height: 6vw;
+	width: 13vw;
+	height: 13vw;
 	/* border-radius: 50%; */
 	box-shadow: 0px 0px 7px #0004;
 	align-items: center;
 	justify-content: center;
 	font-size: 3.7vw;
+	color: #ffd600;
 	/* flex-wrap: wrap; */
+	border-color: #0000;
 }
 li {
 	list-style: none;
+    font-size: 1.2em;
+    color: rgb(91, 91, 91);
 }
-h1{
-font-weight: 800;
+h1 {
+	font-weight: 800;
 }
-p{
-font-size: 1.3rem;
-color:#935b00;
-}
-
-a{
-text-decoration: none;
-color:blueviolet;
+p {
+	font-size: 1.3rem;
+	color: #935b00;
 }
 
-a:hover{color:#e34234;}
+a {
+	text-decoration: none;
+	color: blueviolet;
+}
+
+a:hover {
+	color: #e34234;
+}
 
 .last-easter {
 	color: #e34234;
@@ -80,5 +94,9 @@ a:hover{color:#e34234;}
 		font-size: clamp(1.3em, 3vw, 2em);
 		/* width:fit-content; */
 		/* margin-right: 1em; */
+	}
+	.clickXB {
+	width: 4em;
+	height: 4em;
 	}
 }

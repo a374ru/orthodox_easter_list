@@ -21,6 +21,14 @@ window.addEventListener("load", function () {
     numberMontf = moment.getMonth();
     dt = moment.getFullYear();
     mainElement = li[dt - 1];
+    li.forEach(liContent => {
+        a = liContent.textContent.match(/[0-9]{4}/);
+        if (a == numberMontf) {
+            alert(a);
+        }
+    });
+
+
     elementText = mainElement.textContent;
     dateElement = Number(elementText.match(/[\d]{2}/)[0].split(",")[0]);
     for (var el of arr) {
