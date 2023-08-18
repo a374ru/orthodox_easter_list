@@ -24,14 +24,13 @@ window.addEventListener("load", function () {
 
     //=-=-=-=-=-=-=-=-=-=-=-=-=-
     li.forEach(node => {
-        const node3 = node.textContent.match(curentYear - 3);
+        let node3 = node.textContent.match(curentYear - 3);
         if (node3) {
             //anchor for scroll
             node.setAttribute("id", "easter");
         }
 
-        const yearElemet = node.textContent.match(curentYear);
-
+        yearElemet = node.textContent.match(curentYear);
 
         if (yearElemet != null) {
             dateElement = Number(node.textContent.match(/[\d]{2}/)[0].split(",")[0]);
@@ -49,21 +48,18 @@ window.addEventListener("load", function () {
                     " <br><span style='color:#fca9a9; font-size: .7em; '>Ожидаемая Пасха</span>";
             } else {
                 node.setAttribute("class", "last-easter");
-
             }
-
         }
 
-        const node2 = node.textContent.match(curentYear + 1);
+        node2 = node.textContent.match(curentYear + 1);
         if (node2 && moment.getTime() > easterElement.getTime()) {
             node.setAttribute("class", "easter");
             node.innerHTML +=
                 " <br><span style='color:#fca; font-size: .7em; '>Ожидаемая Пасха</span>";
         }
 
-
     });
-    // document.location.replace('#easter');
-    el = document.querySelector("#easter");
-    el.scrollIntoView();
+    // el = document.querySelector("#easter");
+    // el.scrollIntoView();
+    document.location.replace('#easter');
 });
