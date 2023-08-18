@@ -106,6 +106,10 @@ a:hover {
 		margin-right: 3em;
 		padding: 12px; */
 	}
+
+	body{
+	background-image: none;
+	}
 	.clickXB {
 		background-color: #e34234;
 		width: 4em;
