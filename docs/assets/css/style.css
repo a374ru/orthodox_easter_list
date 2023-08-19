@@ -17,6 +17,7 @@ body {
 p {
 	padding: 0 12px;
 }
+
 .easter {
 	color: #fff;
 	opacity: 0.88;
@@ -30,11 +31,11 @@ p {
 
 	/* Animation selector */
 }
-	
-.rrr {
+
+.article-set {
 	margin: auto;
 	max-width: 800px;
-		font-size: x-large;
+	font-size: x-large;
 }
 
 .clickXB {
@@ -99,16 +100,21 @@ a:hover {
 	.copyright {
 		text-align: center;
 	}
-.general-properties {
-	background-color: #e3423455;
-	}
-.clickXB {
-	background-color: #e34234;
-}
-}
-@media (max-width: 525px) {
 
-	.rrr {
+		.general-properties {
+			background-color: #e3423455;
+	}
+
+		.clickXB {
+			background-color: #e34234;
+		}
+}
+
+@media (max-width: 525px) {
+	header {
+		display: none;
+	}
+.article-set {
 		font-size: large;
 	}
 
@@ -145,14 +151,13 @@ a:hover {
 		-webkit-transform: scale3d(1, 1, 1);
 		transform: scale3d(1, 1, 1);
 	}
-	
-						50% {
-							-webkit-transform: scale3d(1.05, 1.05, 1.05);
-							transform: scale3d(1.05, 1.05, 1.05);
-						}
-			
-						100% {
-							-webkit-transform: scale3d(1, 1, 1);
-							transform: scale3d(1, 1, 1);
-						}
-						}
+50% {
+	-webkit-transform: scale3d(1.05, 1.05, 1.05);
+	transform: scale3d(1.05, 1.05, 1.05);
+}
+
+100% {
+	-webkit-transform: scale3d(1, 1, 1);
+	transform: scale3d(1, 1, 1);
+}
+}
