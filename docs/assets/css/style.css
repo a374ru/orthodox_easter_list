@@ -111,8 +111,7 @@ a:hover {
 .copyright {
     font-size: larger;
     text-align: right;
-    margin: 1em 3.3em;
-    color: #fff7;
+    color: rgba(255, 145, 145, 0.399);
 }
 
 .top-menu-title{
@@ -129,7 +128,9 @@ color: #fbffa9;
     }
 
 @media (max-width: 799px) {
-
+body {
+      background-image: none ;
+      }
 
     .copyright {
         text-align: center;
