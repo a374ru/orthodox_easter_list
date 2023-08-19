@@ -43,7 +43,7 @@ window.addEventListener("load", function () {
             //=-=-=-=-=-=-=-=-=-=-=-=-=-
             if (moment.getTime() < easterElement.getTime()) {
                 node.setAttribute("class", "last-easter");
-                node.setAttribute("class", "easter");
+                node.setAttribute("class", "easter pulse");
                 node.innerHTML +=
                     " <br><span style='color:#fca9a9; font-size: .7em; '>Ожидаемая Пасха</span>";
             } else {
@@ -53,7 +53,7 @@ window.addEventListener("load", function () {
 
         node2 = node.textContent.match(curentYear + 1);
         if (node2 && moment.getTime() > easterElement.getTime()) {
-            node.setAttribute("class", "easter");
+            node.setAttribute("class", "easter pulse");
             node.innerHTML +=
                 " <br><span style='color:#fca; font-size: .7em; '>Ожидаемая Пасха</span>";
         }

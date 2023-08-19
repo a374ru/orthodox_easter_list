@@ -14,6 +14,9 @@ body {
 	background-image: linear-gradient(to right, #ffe5f4, #fdeaf8, #fceffc, #fbf4fe, #fcf9ff, #fafbff, #fafdff, #fbfeff, #f5feff, #eefeff, #e8ffff, #e2fffd);
 }
 
+p {
+	padding: 0 12px;
+}
 .easter {
 	color: #fff;
 	opacity: 0.88;
@@ -30,7 +33,8 @@ body {
 	
 .rrr {
 	margin: auto;
-	width: 55%;
+	max-width: 800px;
+		font-size: x-large;
 }
 
 .clickXB {
@@ -38,7 +42,7 @@ body {
 	display: flex;
 	position: fixed;
 	background-color: #fe34230f;
-	top: 5vw;
+	top: 6.5vw;
 	right: 5vw;
 	width: 3em;
 	height: 3em;
@@ -86,7 +90,7 @@ a:hover {
 .copyright {
 	font-size: larger;
 	text-align: right;
-	margin: 1em 3em;
+	margin: 1em 3.3em;
 	color: #fff7;
 }
 
@@ -102,3 +106,53 @@ a:hover {
 	background-color: #e34234;
 }
 }
+@media (max-width: 525px) {
+
+	.rrr {
+		font-size: large;
+	}
+
+}
+
+.pulse {
+	-webkit-animation-name: pulse;
+	animation-name: pulse;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+}
+
+@-webkit-keyframes pulse {
+	0% {
+		-webkit-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1);
+	}
+
+	50% {
+		-webkit-transform: scale3d(1.05, 1.05, 1.05);
+		transform: scale3d(1.05, 1.05, 1.05);
+	}
+
+	100% {
+		-webkit-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1);
+	}
+}
+
+@keyframes pulse {
+	0% {
+		-webkit-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1);
+	}
+	
+						50% {
+							-webkit-transform: scale3d(1.05, 1.05, 1.05);
+							transform: scale3d(1.05, 1.05, 1.05);
+						}
+			
+						100% {
+							-webkit-transform: scale3d(1, 1, 1);
+							transform: scale3d(1, 1, 1);
+						}
+						}
