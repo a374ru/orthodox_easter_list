@@ -18,6 +18,7 @@ body {
 
 p {
     padding: 0 12px;
+    font-size: 1.1rem;
 }
 
 
@@ -27,7 +28,7 @@ p {
     color: #d34336d9;
     padding: 7px;
     border-radius: 4px;
-    border: 1px double #0007;
+    border: .5px double #e30000;
     line-height: 180%;
     margin: 0 .5rem;
     background-color: #fff4f4;
@@ -128,6 +129,8 @@ color: #fbffa9;
     }
 
 @media (max-width: 799px) {
+
+
     .copyright {
         text-align: center;
     }
@@ -144,6 +147,10 @@ color: #fbffa9;
 
 @media (max-width: 525px) {
 
+p{
+font-size: 1em;
+
+}
 MAIN{ gap: 2px;}
 
     .badge {
