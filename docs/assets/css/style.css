@@ -128,9 +128,6 @@ color: #fbffa9;
     }
 
 @media (max-width: 799px) {
-body {
-      background-image: none ;
-      }
 
     .copyright {
         text-align: center;
