@@ -1,163 +1,207 @@
 /**
  * Во имя Отца и Сына и Святаго Духа. Аминь.
- *
- * @format
  */
 
-/* четверг, 17 августа 2023 г. 21:12:21 (MS */
-@import url("template-greed-ystm.css");
+/* суббота, 19 августа 2023 г. 18:41:37 (MSK) */
+
+
+
+@import url("template-greed-ystm.css"); 
+
 
 body {
-	/* обязательное свойство */
-	margin: 0;
-	/* background-image: url('https://img.a374.ru/svg/orthodox-field.svg'); */
-	background-image: linear-gradient(to right, #ffe5f4, #fdeaf8, #fceffc, #fbf4fe, #fcf9ff, #fafbff, #fafdff, #fbfeff, #f5feff, #eefeff, #e8ffff, #e2fffd);
+    /* обязательное свойство */
+    margin: 0;
+    /* background-image: url('https://img.a374.ru/svg/orthodox-field.svg'); */
+    background-image: linear-gradient(to right, #ffe5f4, #fdeaf8, #fceffc, #fbf4fe, #fcf9ff, #fafbff, #fafdff, #fbfeff, #f5feff, #eefeff, #e8ffff, #e2fffd);
 }
 
 p {
-	padding: 0 12px;
+    padding: 0 12px;
+}
+
+
+.badge {
+    /* box-shadow: 0px 1px 1px #0007; */
+    font-size: 1em;
+    color: #d34336d9;
+    padding: 7px;
+    border-radius: 4px;
+    border: 1px double #0007;
+    line-height: 180%;
+    margin: 0 .5rem;
+    background-color: #fff4f4;
+}
+
+.badge:hover {
+    color: #d3433699;
+    background-color: #fcfcfc;
+    box-shadow: 0px 0px 1px #000;
+    border: 1px double #0003;
 }
 
 .easter {
-	color: #fff;
-	opacity: 0.88;
-	font-size: clamp(1em, 3vw, 1.7em);
-	background: rgb(227, 66, 52);
-	background: linear-gradient(270deg,
-			rgba(227, 66, 52, 1) 0%,
-			rgba(54, 4, 0, 1) 100%);
-	padding: 3% 3%;
-	box-shadow: 0px 0px 7px #0007;
-
-	/* Animation selector */
+    color: #fff;
+    opacity: 0.88;
+    font-size: clamp(1em, 3vw, 1.7em);
+    background: rgb(227, 66, 52);
+    background: linear-gradient(270deg, rgba(227, 66, 52, 1) 0%, rgba(54, 4, 0, 1) 100%);
+    padding: 3% 3%;
+    box-shadow: 0px 0px 7px #0007;
+    /* Animation selector */
 }
 
 .article-set {
-	margin: auto;
-	max-width: 800px;
-	font-size: x-large;
+    margin: auto;
+    max-width: 800px;
+    font-size: x-large;
 }
 
 .clickXB {
-	cursor: pointer;
-	display: flex;
-	position: fixed;
-	background-color: #fe34230f;
-	top: 6.5vw;
-	right: 5vw;
-	width: 3em;
-	height: 3em;
-	/* border-radius: 50%; */
-	/* box-shadow: 0px 0px 3px #0007; */
-	align-items: center;
-	justify-content: center;
-	font-size: 2.7vw;
-	color: #ffffff;
-	/* flex-wrap: wrap; */
-	border-radius: 50%;
-	border-color: #0000;
+    cursor: pointer;
+    display: flex;
+    position: fixed;
+    background-color: #fe34230f;
+    top: 31vw;
+    right: 5vw;
+    width: 3em;
+    height: 3em;
+    /* border-radius: 50%; */
+    /* box-shadow: 0px 0px 3px #0007; */
+    align-items: center;
+    justify-content: center;
+    font-size: 2.7vw;
+    color: #ffffff;
+    /* flex-wrap: wrap; */
+    border-radius: 50%;
+    border-color: #0000;
 }
 
 button.clickXB:hover {
-	color: #fbffa9;
-	background-color: #e34234;
-	box-shadow: 0px 0px 11px #ffe500;
+    color: #fbffa9;
+    background-color: #e34234;
+    box-shadow: 0px 0px 11px #ffe500;
 }
 
 li {
-	list-style: none;
-	font-size: 1.2em;
-	color: rgb(91, 91, 91);
+    list-style: none;
+    font-size: 1.2em;
+    color: rgb(91, 91, 91);
 }
 
 h1 {
-	font-weight: 800;
+    font-weight: 800;
 }
 
-a {
-	text-decoration: none;
-	color: blueviolet;
+a, a:visited {
+    text-decoration: none;
+    color: blueviolet;
 }
 
 a:hover {
-	color: #e34234;
+    color: #e34234;
 }
 
 .last-easter {
-	color: #e34234;
-	font-size: 1.3rem;
+    color: #e34234;
+    font-size: 1.3rem;
 }
 
 .copyright {
-	font-size: larger;
-	text-align: right;
-	margin: 1em 3.3em;
-	color: #fff7;
+    font-size: larger;
+    text-align: right;
+    margin: 1em 3.3em;
+    color: #fff7;
 }
 
+.top-menu-title{
+color: #fbffa9;
+}
+
+ .general-properties {
+ display: flex;
+ justify-content:  space-between;
+        background-color: #ff5d5d;
+    /* border: 16px dashed #ffffff99; */
+    padding: 14px;
+    box-shadow: 0px 2px 4px #0007;
+    }
 
 @media (max-width: 799px) {
-	.copyright {
-		text-align: center;
-	}
+    .copyright {
+        text-align: center;
+    }
 
-		.general-properties {
-			background-color: #e3423455;
-	}
+    .general-properties {
+        background-color: #ff5d5d;
+    }
+   
 
-		.clickXB {
-			background-color: #e34234;
-		}
+    .clickXB {
+        background-color: #e34234;
+    }
 }
 
 @media (max-width: 525px) {
-	header {
-		display: none;
-	}
-.article-set {
-		font-size: large;
-	}
 
+MAIN{ gap: 2px;}
+
+    .badge {
+        margin: 0 .3em;
+    }
+
+    .top-menu {
+        justify-content: center;
+    }
+
+    .top-menu-title {
+        display: none;
+    }
+
+    .article-set {
+        font-size: large;
+    }
 }
 
 .pulse {
-	-webkit-animation-name: pulse;
-	animation-name: pulse;
-	-webkit-animation-duration: 1s;
-	animation-duration: 1s;
-	-webkit-animation-fill-mode: both;
-	animation-fill-mode: both;
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
 }
 
 @-webkit-keyframes pulse {
-	0% {
-		-webkit-transform: scale3d(1, 1, 1);
-		transform: scale3d(1, 1, 1);
-	}
+    0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
 
-	50% {
-		-webkit-transform: scale3d(1.05, 1.05, 1.05);
-		transform: scale3d(1.05, 1.05, 1.05);
-	}
+    50% {
+        -webkit-transform: scale3d(1.05, 1.05, 1.05);
+        transform: scale3d(1.05, 1.05, 1.05);
+    }
 
-	100% {
-		-webkit-transform: scale3d(1, 1, 1);
-		transform: scale3d(1, 1, 1);
-	}
+    100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
 }
 
 @keyframes pulse {
-	0% {
-		-webkit-transform: scale3d(1, 1, 1);
-		transform: scale3d(1, 1, 1);
-	}
-50% {
-	-webkit-transform: scale3d(1.05, 1.05, 1.05);
-	transform: scale3d(1.05, 1.05, 1.05);
-}
+    0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
 
-100% {
-	-webkit-transform: scale3d(1, 1, 1);
-	transform: scale3d(1, 1, 1);
-}
+    50% {
+        -webkit-transform: scale3d(1.05, 1.05, 1.05);
+        transform: scale3d(1.05, 1.05, 1.05);
+    }
+
+    100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
 }
