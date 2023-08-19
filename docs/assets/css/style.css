@@ -5,35 +5,32 @@
  */
 
 /* четверг, 17 августа 2023 г. 21:12:21 (MS */
+@import url("template-greed-ystm.css");
 
 body {
+	/* обязательное свойство */
 	margin: 0;
-	height: 100vh;
-	background-image: url('https://img.a374.ru/svg/orthodox-field.svg');
-			background-repeat: no-repeat;
-			background-attachment: fixed;
-			background-size: cover;		
+	/* background-image: url('https://img.a374.ru/svg/orthodox-field.svg'); */
+	background-image: linear-gradient(to right, #ffe5f4, #fdeaf8, #fceffc, #fbf4fe, #fcf9ff, #fafbff, #fafdff, #fbfeff, #f5feff, #eefeff, #e8ffff, #e2fffd);
 }
 
+.easter {
+	color: #fff;
+	opacity: 0.88;
+	font-size: clamp(1em, 3vw, 1.7em);
+	background: rgb(227, 66, 52);
+	background: linear-gradient(270deg,
+			rgba(227, 66, 52, 1) 0%,
+			rgba(54, 4, 0, 1) 100%);
+	padding: 3% 3%;
+	box-shadow: 0px 0px 7px #0007;
 
-main {
-	display: flex;
-	flex-wrap: nowrap;
-	flex-direction: column;
-	align-items: center;
+	/* Animation selector */
 }
-
-section {
-	/* margin: 0 2em 10em; */
-}
-.one {
-	display: flex;
-	flex-direction: column;
-	align-content: center;
-	max-width: 800px;
-	/* min-width: 97%; */
+	
+.rrr {
 	margin: auto;
-	align-items: flex-start;
+	width: 55%;
 }
 
 .clickXB {
@@ -67,12 +64,9 @@ li {
 	font-size: 1.2em;
 	color: rgb(91, 91, 91);
 }
+
 h1 {
 	font-weight: 800;
-}
-p {
-	font-size: 1.1rem;
-	color: #935b00;
 }
 
 a {
@@ -89,76 +83,22 @@ a:hover {
 	font-size: 1.3rem;
 }
 
-.easter {
-	color: #fff;
-	opacity: .88;
-	font-size: clamp(1em, 3vw, 1.7em);
-	background: rgb(227, 66, 52);
-	background: linear-gradient(
-		270deg,
-		rgba(227, 66, 52, 1) 0%,
-		rgba(54, 4, 0, 1) 100%
-	);
-	padding: 11% 10%;
-	box-shadow: 0px 0px 7px #0007;
-
-	/* Animation selector */
-  -webkit-animation-name: pulse;
-  animation-name: pulse;
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-  }
-  @-webkit-keyframes pulse {
-  0% {
-  -webkit-transform: scale3d(1, 1, 1);
-  transform: scale3d(1, 1, 1);
-  }
-  50% {
-  -webkit-transform: scale3d(1.05, 1.05, 1.05);
-  transform: scale3d(1.05, 1.05, 1.05);
-  }
-  100% {
-  -webkit-transform: scale3d(1, 1, 1);
-  transform: scale3d(1, 1, 1);
-  }
-  }
-  @keyframes pulse {
-  0% {
-  -webkit-transform: scale3d(1, 1, 1);
-  transform: scale3d(1, 1, 1);
-  }
-  50% {
-  -webkit-transform: scale3d(1.05, 1.05, 1.05);
-  transform: scale3d(1.05, 1.05, 1.05);
-  }
-  100% {
-  -webkit-transform: scale3d(1, 1, 1);
-  transform: scale3d(1, 1, 1);
-  }
+.copyright {
+	font-size: larger;
+	text-align: right;
+	margin: 1em 3em;
+	color: #fff7;
 }
 
-@media (max-width: 800px) {
-	.easter {
-		font-size: clamp(1.4em, 2vw, 2.2em);
-		/* width: fit-content;
-		margin-right: 3em;
-		padding: 12px; */
-	}
 
-	body{
-background-image: linear-gradient(to right bottom, #ffffff, #f6f7ff, #e8f0ff, #d6ebff, #c1e6ff);
+@media (max-width: 799px) {
+	.copyright {
+		text-align: center;
 	}
-	.clickXB {
-		background-color: #e34234;
-		width: 4em;
-		height: 4em;
+.general-properties {
+	background-color: #e3423455;
 	}
-	h1 {
-		font-size: x-large;
-	}
-	p {
-		font-size: large;
-	}
+.clickXB {
+	background-color: #e34234;
+}
 }
