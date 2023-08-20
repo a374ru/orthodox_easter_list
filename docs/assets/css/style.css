@@ -115,8 +115,8 @@ a:hover {
 }
 
 .last-easter {
-	color: #e34234;
-	box-shadow: #0007 0px 0px 7px;
+	color: #e34234bd;
+		box-shadow: #0007 0px 0px 77px;
 		font-size: .9lh;
 		padding: 2% 2% 2% 3vw;
 }
