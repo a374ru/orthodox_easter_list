@@ -10,21 +10,19 @@ body {
 	/* обязательное свойство */
 	margin: 0;
 	/* background-image: url('https://img.a374.ru/svg/orthodox-field.svg'); */
-	background-image: linear-gradient(
-		to right,
-		#ffe5f4,
-		#fdeaf8,
-		#fceffc,
-		#fbf4fe,
-		#fcf9ff,
-		#fafbff,
-		#fafdff,
-		#fbfeff,
-		#f5feff,
-		#eefeff,
-		#e8ffff,
-		#e2fffd
-	);
+	background-image: linear-gradient(to right,
+				#ffe5f4,
+				#fdeaf8,
+				#fceffc,
+				#fbf4fe,
+				#fcf9ff,
+				#fafbff,
+				#fafdff,
+				#fbfeff,
+				#f5feff,
+				#eefeff,
+				#e8ffff,
+			#e2fffd);
 }
 
 p {
@@ -56,11 +54,9 @@ p {
 	opacity: 0.88;
 	font-size: clamp(1em, 9vw, 1.7em);
 	background: rgb(227, 66, 52);
-	background: linear-gradient(
-		270deg,
-		rgba(227, 66, 52, 1) 0%,
-		rgba(54, 4, 0, 1) 100%
-	);
+	background: linear-gradient(270deg,
+				rgba(227, 66, 52, 1) 0%,
+			rgba(54, 4, 0, 1) 100%);
 	padding: 3% 3% 3% 7%;
 	box-shadow: 0px 0px 7px #0007;
 	/* Animation selector */
@@ -120,9 +116,9 @@ a:hover {
 
 .last-easter {
 	color: #e34234;
-    box-shadow: #0007 0px 0px 7px;
-    font-size: .9lh;
-    padding: 2% 2% 2% 3vw;
+	box-shadow: #0007 0px 0px 7px;
+		font-size: .9lh;
+		padding: 2% 2% 2% 3vw;
 }
 
 .copyright {
@@ -159,6 +155,14 @@ a:hover {
 }
 
 @media (max-width: 525px) {
+	.last-easter {
+			box-shadow: none;
+			font-size: 4vh
+		}
+	
+		.easter {
+			width: 80%;
+		}
 	p {
 		font-size: 1em;
 	}
