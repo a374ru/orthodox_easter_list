@@ -1,6 +1,5 @@
 /** @format */
 
-
 const arr = [
     "Январь",
     "Февраль",
@@ -17,14 +16,13 @@ const arr = [
 ];
 
 window.addEventListener("load", function () {
-
     li = document.querySelectorAll("li");
     moment = new Date();
     numberMontf = moment.getMonth();
     curentYear = moment.getFullYear();
 
     //=-=-=-=-=-=-=-=-=-=-=-=-=-
-    li.forEach(node => {
+    li.forEach((node) => {
         let node3 = node.textContent.match(curentYear - 3);
         if (node3) {
             //anchor for scroll
@@ -40,7 +38,9 @@ window.addEventListener("load", function () {
                     indexMontfElement = arr.findIndex((i) => i == el);
                 }
             }
-            easterElement = new Date(`${yearElemet}/${indexMontfElement}/${dateElement}`);
+            easterElement = new Date(
+                `${yearElemet}/${indexMontfElement}/${dateElement}`
+            );
             //=-=-=-=-=-=-=-=-=-=-=-=-=-
             if (moment.getTime() < easterElement.getTime()) {
                 node.setAttribute("class", "last-easter");
@@ -58,9 +58,8 @@ window.addEventListener("load", function () {
             node.innerHTML +=
                 " <br><span style='color:#fca; font-size: .7em; '>Ожидаемая Пасха</span>";
         }
-
     });
     // el = document.querySelector("#easter");
     // el.scrollIntoView();
-    document.location.replace('#easter');
+    document.location.replace("#easter");
 });
