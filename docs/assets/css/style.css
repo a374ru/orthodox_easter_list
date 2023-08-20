@@ -61,7 +61,7 @@ p {
 		rgba(227, 66, 52, 1) 0%,
 		rgba(54, 4, 0, 1) 100%
 	);
-	padding: 3% 3%;
+	padding: 3% 3% 3% 1.1lh;
 	box-shadow: 0px 0px 7px #0007;
 	/* Animation selector */
 }
@@ -120,7 +120,9 @@ a:hover {
 
 .last-easter {
 	color: #e34234;
-	font-size: 1.3rem;
+    box-shadow: #0007 0px 0px 7px;
+    font-size: .9lh;
+    padding: 2% 2% 2% 3vw;
 }
 
 .copyright {

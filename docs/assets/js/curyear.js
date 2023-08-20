@@ -55,7 +55,8 @@ window.addEventListener("load", function () {
         node2 = node.textContent.match(curentYear + 1);
         if (node2 && moment.getTime() > easterElement.getTime()) {
             node.setAttribute("class", "easter pulse");
-            node.innerHTML +=
+            formatText = node.textContent.replace(/[\(\\)]{1}\s{1}/gi, '');
+            node.innerHTML = formatText +
                 " <br><span style='color:#fca; font-size: .7em; '>Ожидаемая Пасха</span>";
         }
     });
