@@ -177,6 +177,9 @@ a:hover {
 
 @media (max-width: 799px) {
 
+	p {
+			font-size: x-large;
+		}
 	.copyright {
 		text-align: center;
 	}
@@ -202,7 +205,7 @@ a:hover {
 		}
 
 	p {
-		font-size: 1em;
+		font-size: large;
 	}
 
 	MAIN {
