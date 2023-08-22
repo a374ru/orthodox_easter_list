@@ -23,12 +23,13 @@
 	font-weight: normal;
 	font-style: normal;
 }
+
 body {
 	/* обязательное свойство */
 	margin: 0;
 	/* background-image: url('https://img.a374.ru/svg/orthodox-field.svg'); */
 	background-image: linear-gradient(to right,
-				#ffe5f4,
+			#ffe5f4,
 				#fdeaf8,
 				#fceffc,
 				#fbf4fe,
@@ -56,6 +57,9 @@ p {
 	line-height: 180%;
 	margin: 0 0.5rem;
 	background-color: #fff4f4;
+		white-space: nowrap;
+			/* overflow-x: hidden; */
+			text-overflow: ellipsis;
 }
 
 .badge:hover {
@@ -78,15 +82,15 @@ p {
 	color: #fffdbb;
 	font-size: .7em;
 }
+
 .easter {
 	color: #fff;
 	opacity: 0.88;
 	font-size: clamp(1em, 9vw, 1.7em);
 	background: rgb(227, 66, 52);
 	background: linear-gradient(270deg,
-				rgba(227, 66, 52, 1) 0%,
+			rgba(227, 66, 52, 1) 0%,
 			rgba(54, 4, 0, 1) 100%);
-				
 	padding: 3% 3% 3% 7%;
 	box-shadow: 0px 0px 7px #0007;
 	/* Animation selector */
@@ -146,7 +150,7 @@ a:hover {
 
 .last-easter {
 	color: #e34234bd;
-		box-shadow: #0007 0px 0px 77px;
+	box-shadow: #0007 0px 0px 77px;
 		font-size: .9lh;
 		padding: 2% 2% 2% 3vw;
 }
@@ -154,7 +158,7 @@ a:hover {
 .copyright {
 	font-size: larger;
 	text-align: right;
-	color: rgba(255, 145, 145, 0.399);
+	color: rgba(255, 255, 245, 0.399);
 }
 
 .top-menu-title {
@@ -164,16 +168,20 @@ a:hover {
 .general-properties {
 	display: flex;
 	justify-content: space-between;
-	background-color: #ff5d5d;
+	/* background-color: #ff5d5d; */
 	/* border       : 16px dashed #ffffff99; */
 	padding: 14px;
-	box-shadow: 0px 2px 4px #0007;
+	box-shadow: 0px 5px 20px 12px #0007;
 }
 
 @media (max-width: 799px) {
 	.copyright {
 		text-align: center;
 	}
+																																.badge {
+																																	margin: 0 0.3em;
+																																	font-size: 3vw;
+																																}
 
 	.general-properties {
 		background-color: #ff5d5d;
@@ -186,13 +194,14 @@ a:hover {
 
 @media (max-width: 525px) {
 	.last-easter {
-			box-shadow: none;
+		box-shadow: none;
 			font-size: 4vh
 		}
-	
+		
 		.easter {
 			width: 80%;
 		}
+
 	p {
 		font-size: 1em;
 	}
@@ -203,6 +212,7 @@ a:hover {
 
 	.badge {
 		margin: 0 0.3em;
+		/* font-size: 16px; */
 	}
 
 	.top-menu {
