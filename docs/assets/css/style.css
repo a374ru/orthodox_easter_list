@@ -44,6 +44,9 @@ body {
 				background-blend-mode: luminosity;
 }
 
+header {
+	height: fit-content;
+}
 p {
 	padding: 0 12px;
 	font-size: 1.1rem;
@@ -205,7 +208,7 @@ a:hover {
 		}
 
 	p {
-		font-size: large;
+		font-size: 1.3em;
 	}
 
 	MAIN {
