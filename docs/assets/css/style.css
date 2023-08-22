@@ -31,7 +31,7 @@ body {
 	background-image: linear-gradient(to right,
 			#ffe5f4,
 			#fdeaf8,
-				#fceffc,
+			#fceffc,
 				#fbf4fe,
 				#fcf9ff,
 				#fafbff,
@@ -41,12 +41,13 @@ body {
 				#eefeff,
 				#e8ffff,
 			#e2fffd);
-				background-blend-mode: luminosity;
+	background-blend-mode: luminosity;
 }
 
 header {
-	height: fit-content;
+	height: auto;
 }
+
 p {
 	padding: 0 12px;
 	font-size: 1.3rem;
@@ -62,7 +63,7 @@ p {
 	margin: 0 0.5rem;
 	background-color: #fff4f4;
 	white-space: nowrap;
-		/* overflow-x: hidden; */
+	/* overflow-x: hidden; */
 		text-overflow: ellipsis;
 }
 
@@ -156,7 +157,7 @@ a:hover {
 	color: #e34234bd;
 	box-shadow: #0007 0px 0px 77px;
 	font-size: .9lh;
-		padding: 2% 2% 2% 3vw;
+	padding: 2% 2% 2% 3vw;
 }
 
 .copyright {
@@ -179,14 +180,17 @@ a:hover {
 }
 
 @media (max-width: 799px) {
+	.top-menu>a {
+			font-size: large;
+		}
 
 	p {
-			font-size: x-large;
+		font-size: x-large;
 		}
+
 	.copyright {
 		text-align: center;
 	}
-
 
 	.general-properties {
 		background-color: #ff5d5d;
@@ -197,10 +201,14 @@ a:hover {
 	}
 }
 
-@media (max-width: 525px) {
+@media (max-width: 526px) {
 	.last-easter {
 		box-shadow: none;
-		font-size: 4vh
+		font-size: 4vh;
+		}
+		
+		.linkTop {
+			font-size: 12px;
 		}
 		
 		.easter {
@@ -216,8 +224,8 @@ a:hover {
 	}
 
 	.badge {
-		margin: 0 0.3em;
-		/* font-size: 16px; */
+		margin: 0px 0.2em;
+			font-size: 16px;
 	}
 
 	.top-menu {
