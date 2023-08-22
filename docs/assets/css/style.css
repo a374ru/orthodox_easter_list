@@ -30,7 +30,7 @@ body {
 	/* background-image: url('https://img.a374.ru/svg/orthodox-field.svg'); */
 	background-image: linear-gradient(to right,
 			#ffe5f4,
-				#fdeaf8,
+			#fdeaf8,
 				#fceffc,
 				#fbf4fe,
 				#fcf9ff,
@@ -57,9 +57,9 @@ p {
 	line-height: 180%;
 	margin: 0 0.5rem;
 	background-color: #fff4f4;
-		white-space: nowrap;
-			/* overflow-x: hidden; */
-			text-overflow: ellipsis;
+	white-space: nowrap;
+		/* overflow-x: hidden; */
+		text-overflow: ellipsis;
 }
 
 .badge:hover {
@@ -151,7 +151,7 @@ a:hover {
 .last-easter {
 	color: #e34234bd;
 	box-shadow: #0007 0px 0px 77px;
-		font-size: .9lh;
+	font-size: .9lh;
 		padding: 2% 2% 2% 3vw;
 }
 
@@ -178,10 +178,11 @@ a:hover {
 	.copyright {
 		text-align: center;
 	}
-																																.badge {
-																																	margin: 0 0.3em;
-																																	font-size: 3vw;
-																																}
+
+		.badge {
+		/* margin: 0 0.3em; */
+			font-size: 3vw;
+		}
 
 	.general-properties {
 		background-color: #ff5d5d;
@@ -195,7 +196,7 @@ a:hover {
 @media (max-width: 525px) {
 	.last-easter {
 		box-shadow: none;
-			font-size: 4vh
+		font-size: 4vh
 		}
 		
 		.easter {
