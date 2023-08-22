@@ -8,6 +8,6 @@
   С Апракосом по юлианскому календарю можно ознакомится [здесь…](https://a374ru.github.io/aprakos.ru/)
   
   
-<span style="color:#e34234">Дождитесь загрузки страницы</span> [здесь…](https://a374ru.github.io/orthodox_easter_list/DatesOfOrthodoxEaster)
+<span style="color:#e34234">Дождитесь загрузки страницы</span> [здесь…](https://a374ru.github.io/orthodox_easter_list/9999.html)
 
-<a href="https://a374ru.github.io/orthodox_easter_list/DatesOfOrthodoxEaster">![](docs/../assets/img/XB.svg)</a>
+<a href="https://a374ru.github.io/orthodox_easter_list/9999.html">![img](docs/assets/img/XB.svg)</a>
