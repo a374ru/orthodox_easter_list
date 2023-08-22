@@ -55,22 +55,23 @@ p {
 
 .badge {
 	font-size: 1em;
-	color: #d34336d9;
+	/* color: #d4d4d4d9; */
 	padding: 7px;
 	border-radius: 4px;
-	border: 0.5px double #e30000;
+	border: 0.5px double #a5a5a5;
 	line-height: 180%;
 	margin: 0 0.5rem;
-	background-color: #fff4f4;
+	background-color: #f4f4f4;
 	white-space: nowrap;
+	box-shadow: 0px 0px 4px #0003;
 	/* overflow-x: hidden; */
 		text-overflow: ellipsis;
 }
 
 .badge:hover {
 	color: #d3433699;
-	background-color: #fcfcfc;
-	box-shadow: 0px 0px 1px #000;
+	background-color: #f4f4f499;
+		box-shadow: 0px 2px 3px #0008 inset;
 	border: 1px double #0003;
 }
 
