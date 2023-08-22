@@ -141,11 +141,11 @@ h1 {
 a,
 a:visited {
 	text-decoration: none;
-	color: rgb(231, 205, 255);
+	color: rgb(139, 139, 139);
 }
 
 a:hover {
-	color: #f9fbab;
+	color: #E91E63;
 }
 
 .last-easter {
@@ -175,14 +175,13 @@ a:hover {
 }
 
 @media (max-width: 799px) {
+body {
+		background-image: none;
+	}
 	.copyright {
 		text-align: center;
 	}
 
-		.badge {
-		/* margin: 0 0.3em; */
-			font-size: 3vw;
-		}
 
 	.general-properties {
 		background-color: #ff5d5d;
