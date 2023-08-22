@@ -3,8 +3,13 @@
  *
  * @format
  */
-/* суббота, 19 августа 2023 г. 18:41:37 (MSK) */
+/* 
+вторник, 22 августа 2023 г. 14:44:20 (MSK) 
+*/
+/* template greed */
+/*///////////////////////////////////*/
 @import url("template-greed-ystm.css");
+/*///////////////////////////////////*/
 
 /* @font-face {
 	font-family: "Fontics";
@@ -28,7 +33,7 @@ body {
 	/* обязательное свойство */
 	margin: 0;
 	/* background-image: url('https://img.a374.ru/svg/orthodox-field.svg'); */
-	background-image: linear-gradient(to right,
+		/* background-image: linear-gradient(to right,
 			#ffe5f4,
 			#fdeaf8,
 			#fceffc,
@@ -41,7 +46,7 @@ body {
 				#eefeff,
 				#e8ffff,
 			#e2fffd);
-	background-blend-mode: luminosity;
+				*/
 }
 
 header {
@@ -55,7 +60,7 @@ p {
 
 .badge {
 	font-size: 1em;
-	/* color: #d4d4d4d9; */
+	/* color: #050505d9; */
 	padding: 7px;
 	border-radius: 4px;
 	border: 0.5px double #a5a5a5;
@@ -69,14 +74,14 @@ p {
 }
 
 .badge:hover {
-	color: #d3433699;
+	/* color: #eee7e699; */
 	background-color: #f4f4f499;
 		box-shadow: 0px 2px 3px #0008 inset;
 	border: 1px double #0003;
 }
 
 .badge-link {
-	color: #fca9a9;
+	/* color: #fca9a9; */
 	font-size: .7em;
 }
 
@@ -85,7 +90,7 @@ p {
 	display: flex;
 	/* justify-content: flex-end; */
 	content: "КанHнъ с™hz пaсхи.";
-	color: #fffdbb;
+	color: #996800;
 	font-size: .7em;
 }
 
@@ -112,7 +117,8 @@ p {
 	cursor: pointer;
 	display: flex;
 	position: fixed;
-	background-color: #fe34230f;
+	background-color: #ffc1bb55;
+		color: #e3423422;
 	top: 33vw;
 	right: 5vw;
 	width: 3em;
@@ -122,7 +128,7 @@ p {
 	align-items: center;
 	justify-content: center;
 	font-size: 2.7vw;
-	color: #ffffff;
+	/* color: #ffffff; */
 	/* flex-wrap    : wrap; */
 	border-radius: 50%;
 	border-color: #0000;
@@ -147,11 +153,11 @@ h1 {
 a,
 a:visited {
 	text-decoration: none;
-	color: rgb(139, 139, 139);
+	color: rgb(153, 114, 114);
 }
 
 a:hover {
-	color: #E91E63;
+	color: #d3996c;
 }
 
 .last-easter {
