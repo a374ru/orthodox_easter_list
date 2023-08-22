@@ -6,6 +6,23 @@
 /* суббота, 19 августа 2023 г. 18:41:37 (MSK) */
 @import url("template-greed-ystm.css");
 
+/* @font-face {
+	font-family: "Fontics";
+	font-display: auto;
+	src: local("Fontics-Regular.otf"),
+		url("https://fonts.a374.ru/Fontics-Regular.otf");
+	font-weight: normal;
+	font-style: normal;
+} */
+@font-face {
+	font-family: 'Irmologion';
+	font-display: auto;
+	/* src: url('../font/IrmUcs.ttf'); */
+	/* src: url('../font/Clunya-IrmIEUcs.otf'); */
+	src: local('Clunya-IrmIEUcs'), url('https://fonts.a374.ru/Clunya-IrmIEUcs.otf');
+	font-weight: normal;
+	font-style: normal;
+}
 body {
 	/* обязательное свойство */
 	margin: 0;
@@ -31,7 +48,6 @@ p {
 }
 
 .badge {
-	/* box-shadow: 0px 1px 1px #0007; */
 	font-size: 1em;
 	color: #d34336d9;
 	padding: 7px;
@@ -49,6 +65,19 @@ p {
 	border: 1px double #0003;
 }
 
+.badge-link {
+	color: #fca9a9;
+	font-size: .7em;
+}
+
+.badge-link::after {
+	font-family: Irmologion;
+	display: flex;
+	/* justify-content: flex-end; */
+	content: "КанHнъ с™hz пaсхи.";
+	color: #fffdbb;
+	font-size: .7em;
+}
 .easter {
 	color: #fff;
 	opacity: 0.88;
@@ -57,6 +86,7 @@ p {
 	background: linear-gradient(270deg,
 				rgba(227, 66, 52, 1) 0%,
 			rgba(54, 4, 0, 1) 100%);
+				
 	padding: 3% 3% 3% 7%;
 	box-shadow: 0px 0px 7px #0007;
 	/* Animation selector */
@@ -107,11 +137,11 @@ h1 {
 a,
 a:visited {
 	text-decoration: none;
-	color: blueviolet;
+	color: rgb(231, 205, 255);
 }
 
 a:hover {
-	color: #e34234;
+	color: #f9fbab;
 }
 
 .last-easter {

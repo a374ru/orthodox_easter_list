@@ -20,6 +20,7 @@ window.addEventListener("load", function () {
     moment = new Date();
     numberMontf = moment.getMonth();
     curentYear = moment.getFullYear();
+    spanElement = `<br><a target='_blank' href='https://aprakos.a374.ru/currentday/APRAKOS/PASKHA/XB.html' class='badge-link'>Ожидаемая Пасха…</a>`
 
     //=-=-=-=-=-=-=-=-=-=-=-=-=-
     li.forEach((node) => {
@@ -45,8 +46,8 @@ window.addEventListener("load", function () {
             if (moment.getTime() < easterElement.getTime()) {
                 node.setAttribute("class", "last-easter");
                 node.setAttribute("class", "easter pulse");
-                node.innerHTML +=
-                    " <br><span style='color:#fca9a9; font-size: .7em; '>Ожидаемая Пасха</span>";
+                node.innerHTML += spanElement
+
             } else {
                 node.setAttribute("class", "last-easter");
             }
@@ -56,8 +57,7 @@ window.addEventListener("load", function () {
         if (node2 && moment.getTime() > easterElement.getTime()) {
             node.setAttribute("class", "easter pulse");
             formatText = node.textContent.replace(/[\(\\)]{1}\s{1}/gi, '');
-            node.innerHTML = formatText +
-                " <br><span style='color:#fca; font-size: .7em; '>Ожидаемая Пасха</span>";
+            node.innerHTML = formatText + spanElement;
         }
     });
     // el = document.querySelector("#easter");
