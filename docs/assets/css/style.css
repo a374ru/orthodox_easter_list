@@ -4,7 +4,7 @@
  * @format
  */
 /* 
-вторник, 22 августа 2023 г. 14:44:20 (MSK) 
+вторник, 22-24 августа 2023 г. 14:44:20 (MSK) 
 */
 /* template greed */
 /*///////////////////////////////////*/
@@ -222,16 +222,16 @@ a:hover {
 	
 	.last-easter {
 		box-shadow: none;
-		font-size: 4vh;
-	}
-
-	.linkTop {
-		font-size: 12px;
-	}
-
-	.easter {
-		width: 80%;
-	}
+		font-size: 1.1em;
+		}
+		
+		.linkTop {
+			font-size: 12px;
+		}
+		
+		.easter {
+			width: 80%;
+		}
 
 	p {
 		font-size: 1.3em;
