@@ -8,6 +8,11 @@
 
 */
 
+if (window.innerWidth < 525) {
+    b = document.body.setAttribute('style', 'background: radial-gradient(circle, rgb(242, 244, 255) 30%, rgb(255, 240, 243) 70%)');
+}
+
+
 const arr = [
     // "Январь",
     // "Февраль",

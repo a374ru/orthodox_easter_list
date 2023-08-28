@@ -20,11 +20,12 @@
 	font-style: normal;
 } */
 @font-face {
-	font-family: 'Irmologion';
+	font-family: "Irmologion";
 	font-display: auto;
 	/* src: url('../font/IrmUcs.ttf'); */
 	/* src: url('../font/Clunya-IrmIEUcs.otf'); */
-	src: local('Clunya-IrmIEUcs'), url('https://fonts.a374.ru/Clunya-IrmIEUcs.otf');
+	src: local("Clunya-IrmIEUcs"),
+		url("https://fonts.a374.ru/Clunya-IrmIEUcs.otf");
 	font-weight: normal;
 	font-style: normal;
 }
@@ -33,7 +34,7 @@ body {
 	/* обязательное свойство */
 	margin: 0;
 	/* background-image: url('https://img.a374.ru/svg/orthodox-field.svg'); */
-		/* background-image: linear-gradient(to right,
+	/* background-image: linear-gradient(to right,
 			#ffe5f4,
 			#fdeaf8,
 			#fceffc,
@@ -53,6 +54,10 @@ header {
 	height: auto;
 }
 
+main{
+backdrop-filter: blur(22px);
+}
+
 p {
 	padding: 0 12px;
 	font-size: 1.3rem;
@@ -70,19 +75,19 @@ p {
 	white-space: nowrap;
 	box-shadow: 0px 0px 4px #0003;
 	/* overflow-x: hidden; */
-		text-overflow: ellipsis;
+	text-overflow: ellipsis;
 }
 
 .badge:hover {
 	/* color: #eee7e699; */
 	background-color: #f4f4f499;
-		box-shadow: 0px 2px 3px #0008 inset;
+	box-shadow: 0px 2px 3px #0008 inset;
 	border: 1px double #0003;
 }
 
 .badge-link {
 	/* color: #fca9a9; */
-	font-size: .7em;
+	font-size: 0.7em;
 }
 
 .badge-link::after {
@@ -91,7 +96,7 @@ p {
 	/* justify-content: flex-end; */
 	content: "КанHнъ с™hz пaсхи.";
 	color: #996800;
-	font-size: .7em;
+	font-size: 0.7em;
 }
 
 .easter {
@@ -99,9 +104,11 @@ p {
 	opacity: 0.88;
 	font-size: clamp(1em, 9vw, 1.7em);
 	background: rgb(227, 66, 52);
-	background: linear-gradient(270deg,
-			rgba(227, 66, 52, 1) 0%,
-			rgba(54, 4, 0, 1) 100%);
+	background: linear-gradient(
+		270deg,
+		rgba(227, 66, 52, 1) 0%,
+		rgba(54, 4, 0, 1) 100%
+	);
 	padding: 3% 3% 3% 7%;
 	box-shadow: 0px 0px 7px #0007;
 	/* Animation selector */
@@ -118,7 +125,7 @@ p {
 	display: flex;
 	position: fixed;
 	background-color: #ffc1bb55;
-		color: #e3423422;
+	color: #e3423422;
 	top: 33vw;
 	right: 5vw;
 	width: 3em;
@@ -163,7 +170,7 @@ a:hover {
 .last-easter {
 	color: #e34234bd;
 	box-shadow: #0007 0px 0px 77px;
-	font-size: .9lh;
+	font-size: 0.9lh;
 	padding: 2% 2% 2% 3vw;
 }
 
@@ -184,16 +191,18 @@ a:hover {
 	/* border       : 16px dashed #ffffff99; */
 	padding: 14px;
 	box-shadow: 0px 5px 20px 12px #0007;
+
+	backdrop-filter: blur(12px);
 }
 
 @media (max-width: 799px) {
-	.top-menu>a {
-			font-size: large;
-		}
+	.top-menu > a {
+		font-size: large;
+	}
 
 	p {
 		font-size: x-large;
-		}
+	}
 
 	.copyright {
 		text-align: center;
@@ -201,6 +210,7 @@ a:hover {
 
 	.general-properties {
 		background-color: #ff5d5d;
+		/* opacity: .9; */
 	}
 
 	.clickXB {
@@ -209,18 +219,19 @@ a:hover {
 }
 
 @media (max-width: 526px) {
+	
 	.last-easter {
 		box-shadow: none;
 		font-size: 4vh;
-		}
-		
-		.linkTop {
-			font-size: 12px;
-		}
-		
-		.easter {
-			width: 80%;
-		}
+	}
+
+	.linkTop {
+		font-size: 12px;
+	}
+
+	.easter {
+		width: 80%;
+	}
 
 	p {
 		font-size: 1.3em;
@@ -228,11 +239,12 @@ a:hover {
 
 	MAIN {
 		gap: 2px;
+		
 	}
 
 	.badge {
 		margin: 0px 0.2em;
-			font-size: 16px;
+		font-size: 16px;
 	}
 
 	.top-menu {
