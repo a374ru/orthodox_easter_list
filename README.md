@@ -10,4 +10,4 @@
   
 <span style="color:#e34234">Дождитесь загрузки страницы</span> [здесь…](https://a374ru.github.io/orthodox_easter_list/DatesOfOrthodoxEaster)
 
-<a href="https://a374ru.github.io/orthodox_easter_list/DatesOfOrthodoxEaster">![](img/XB.svg)</a>
+<a href="https://a374ru.github.io/orthodox_easter_list/DatesOfOrthodoxEaster">![](docs/../assets/img/XB.svg)</a>
