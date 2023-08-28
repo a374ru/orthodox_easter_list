@@ -1,18 +1,26 @@
-/** @format */
+/** Во Имя Отца и Сына и Святаго Духа. Аминь. */
+
+/**  
+
+Скрипт проверяет элементы `li` сравнивая каждый с текушшим годом и датой. 
+Сравнивает текущую дату с датой элемента. В соответствии с результатом рендерит текущий вид.
+
+
+*/
 
 const arr = [
-    "Январь",
-    "Февраль",
+    // "Январь",
+    // "Февраль",
     "Март",
     "Апрель",
     "Май",
     "Июнь",
     "Июль",
     "Август",
-    "Сентябрь",
-    "Октябрь",
-    "Ноябрь",
-    "Декабрь",
+    // "Сентябрь",
+    // "Октябрь",
+    // "Ноябрь",
+    // "Декабрь",
 ];
 
 window.addEventListener("load", function () {
@@ -20,7 +28,7 @@ window.addEventListener("load", function () {
     moment = new Date();
     numberMontf = moment.getMonth();
     curentYear = moment.getFullYear();
-    spanElement = `<br><a target='_blank' href='https://aprakos.a374.ru/currentday/APRAKOS/PASKHA/XB.html' class='badge-link'>Ожидаемая Пасха…</a>`
+    spanElement = `<br><a target='_blank' href='https://aprakos.a374.ru/currentday/APRAKOS/PASKHA/XB.html' class='badge-link'>Грядущая Пасха</a>`
 
     //=-=-=-=-=-=-=-=-=-=-=-=-=-
     li.forEach((node) => {

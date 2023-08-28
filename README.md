@@ -4,10 +4,11 @@
   В лета 1 — 9999
   
   Важно помнить, что правило празднование Новозаветной Пасхи было установлено на 1-ом Вселенском соборе в 325г.
-  Было проведено много коррекций, но на сей день даты вычислений по современному григоринскому календарю таковы…
-  С Апракосом по юлианскому календарю можно ознакомится [здесь…](https://a374ru.github.io/aprakos.ru/)
-  
-  
-<span style="color:#e34234">Дождитесь загрузки страницы</span> [здесь…](https://a374ru.github.io/orthodox_easter_list/DatesOfOrthodoxEaster)
+  Было проведено много коррекций, но на сей день даты вычислений по современному григоринскому календарю, представлены здесь электрической машиной.
 
-<a href="https://a374ru.github.io/orthodox_easter_list/DatesOfOrthodoxEaster">![](docs/../assets/img/XB.svg)</a>
+  С áпракосом по юлианскому календарю можно ознакомится [здесь…](https://a374ru.github.io/aprakos.ru/)
+  
+  
+<span style="color:#e34234">Дождитесь загрузки страницы</span> [здесь…](https://a374ru.github.io/orthodox_easter_list/9999.html)
+
+<a href="https://a374ru.github.io/orthodox_easter_list/DatesOfOrthodoxEaster">![](docs/assets/img/XB.svg)</a>
