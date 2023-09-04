@@ -77,3 +77,5 @@ window.addEventListener("load", function () {
     // el.scrollIntoView();
     document.location.replace("#easter");
 });
+
+document.querySelector(".copyright-year").innerHTML = new Date().getFullYear();

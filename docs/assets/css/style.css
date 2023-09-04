@@ -33,6 +33,7 @@
 body {
 	/* обязательное свойство */
 	margin: 0;
+	height: 100vh;
 	/* background-image: url('https://img.a374.ru/svg/orthodox-field.svg'); */
 	/* background-image: linear-gradient(to right,
 			#ffe5f4,
@@ -121,12 +122,12 @@ p {
 }
 
 .clickXB {
+position: sticky;
 	cursor: pointer;
-	display: flex;
-	position: fixed;
 	background-color: #ffc1bb55;
 	color: #e3423422;
-	top: 33vw;
+	float:right;
+	top: 6%;
 	right: 5vw;
 	width: 3em;
 	height: 3em;
