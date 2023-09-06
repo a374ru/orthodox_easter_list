@@ -140,6 +140,8 @@ position: sticky;
 	/* flex-wrap    : wrap; */
 	border-radius: 50%;
 	border-color: #0000;
+	overflow:hidden;
+	z-index:333;
 }
 
 button.clickXB:hover {
