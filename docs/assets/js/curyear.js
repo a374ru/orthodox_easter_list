@@ -49,11 +49,11 @@ window.addEventListener("load", function () {
             dateElement = Number(node.textContent.match(/[\d]{2}/)[0].split(",")[0]);
             for (var el of arr) {
                 if (node.textContent.search(el) > -1) {
-                    indexMontfElement = arr.findIndex((i) => i == el);
+                    indexMonthElement = arr.findIndex((i) => i == el);
                 }
             }
             easterElement = new Date(
-                `${yearElemet}/${indexMontfElement}/${dateElement}`
+                `${yearElemet}/${indexMonthElement}/${dateElement}`
             );
             //=-=-=-=-=-=-=-=-=-=-=-=-=-
             if (moment.getTime() < easterElement.getTime()) {

@@ -8,7 +8,7 @@
 */
 /* template greed */
 /*///////////////////////////////////*/
-@import url("template-greed-ystm.css");
+@import url('template-greed-ystm.css');
 /*///////////////////////////////////*/
 
 /* @font-face {
@@ -20,12 +20,12 @@
 	font-style: normal;
 } */
 @font-face {
-	font-family: "Irmologion";
+	font-family: 'Irmologion';
 	font-display: auto;
 	/* src: url('../font/IrmUcs.ttf'); */
 	/* src: url('../font/Clunya-IrmIEUcs.otf'); */
-	src: local("Clunya-IrmIEUcs"),
-		url("https://fonts.a374.ru/Clunya-IrmIEUcs.otf");
+	src: local('Clunya-IrmIEUcs'),
+		url('https://fonts.a374.ru/Clunya-IrmIEUcs.otf');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -55,14 +55,13 @@ header {
 	height: auto;
 }
 
-main{
-backdrop-filter: blur(22px);
+main {
+	backdrop-filter: blur(22px);
 }
 
 p {
 	padding: 0 12px;
-	font-size: 1.3rem;
-}
+	font-size: 1.3rem;}
 
 .badge {
 	font-size: 1em;
@@ -95,7 +94,7 @@ p {
 	font-family: Irmologion;
 	display: flex;
 	/* justify-content: flex-end; */
-	content: "КанHнъ с™hz пaсхи.";
+	content: 'КанHнъ с™hz пaсхи.';
 	color: #996800;
 	font-size: 0.7em;
 }
@@ -122,11 +121,11 @@ p {
 }
 
 .clickXB {
-position: sticky;
+	position: sticky;
 	cursor: pointer;
 	background-color: #ffc1bb55;
 	color: #e3423422;
-	float:right;
+	float: right;
 	top: 23dvh;
 	right: 5vw;
 	width: 3em;
@@ -140,8 +139,8 @@ position: sticky;
 	/* flex-wrap    : wrap; */
 	border-radius: 50%;
 	border-color: #0000;
-	overflow:hidden;
-	z-index:333;
+	overflow: hidden;
+	z-index: 333;
 }
 
 button.clickXB:hover {
@@ -194,7 +193,6 @@ a:hover {
 	/* border       : 16px dashed #ffffff99; */
 	padding: 14px;
 	box-shadow: 0px 5px 20px 12px #0007;
-
 	backdrop-filter: blur(12px);
 }
 
@@ -222,19 +220,18 @@ a:hover {
 }
 
 @media (max-width: 526px) {
-	
 	.last-easter {
 		box-shadow: none;
 		font-size: 1.1em;
-		}
-		
-		.linkTop {
-			font-size: 12px;
-		}
-		
-		.easter {
-			width: 80%;
-		}
+	}
+
+	.linkTop {
+		font-size: 12px;
+	}
+
+	.easter {
+		width: 80%;
+	}
 
 	p {
 		font-size: 1.3em;
@@ -242,7 +239,6 @@ a:hover {
 
 	MAIN {
 		gap: 2px;
-		
 	}
 
 	.badge {
