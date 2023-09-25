@@ -121,7 +121,7 @@ p {
 }
 
 .clickXB {
-	position: fixed;
+	position: sticky;
 	cursor: pointer;
 	background-color: #ffc1bb55;
 	color: #e3423422;
