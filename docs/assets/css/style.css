@@ -55,9 +55,6 @@ header {
 	height: auto;
 }
 
-main {
-	backdrop-filter: blur(22px);
-}
 
 p {
 	padding: 0 12px;
@@ -180,6 +177,7 @@ a:hover {
 	font-size: larger;
 	text-align: right;
 	color: rgba(255, 255, 245, 0.399);
+
 }
 
 .top-menu-title {
@@ -300,3 +298,4 @@ a:hover {
 		transform: scale3d(1, 1, 1);
 	}
 }
+
