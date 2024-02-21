@@ -53,7 +53,7 @@ window.addEventListener("load", function () {
                 }
             }
             easterElement = new Date(
-                `${yearElemet}/${indexMonthElement}/${dateElement}`
+                `${yearElemet}/${indexMonthElement-1}/${dateElement}`
             );
             //=-=-=-=-=-=-=-=-=-=-=-=-=-
             if (moment.getTime() < easterElement.getTime()) {
