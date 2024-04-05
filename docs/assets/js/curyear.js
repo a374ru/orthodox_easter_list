@@ -1,12 +1,3 @@
-/** Во Имя Отца и Сына и Святаго Духа. Аминь. */
-
-/**  
-
-Скрипт проверяет элементы `li` сравнивая каждый с текушшим годом и датой. 
-Сравнивает текущую дату с датой элемента. В соответствии с результатом рендерит текущий вид.
-
-
-*/
 
 if (window.innerWidth < 525) {
     b = document.body.setAttribute('style', 'background: radial-gradient(circle, rgb(242, 244, 255) 30%, rgb(255, 240, 243) 70%)');
@@ -14,18 +5,18 @@ if (window.innerWidth < 525) {
 
 
 const arr = [
-    // "Январь",
-    // "Февраль",
+    "Январь",
+    "Февраль",
     "Март",
     "Апрель",
     "Май",
     "Июнь",
     "Июль",
     "Август",
-    // "Сентябрь",
-    // "Октябрь",
-    // "Ноябрь",
-    // "Декабрь",
+    "Сентябрь",
+    "Октябрь",
+    "Ноябрь",
+    "Декабрь",
 ];
 
 window.addEventListener("load", function () {
@@ -46,14 +37,14 @@ window.addEventListener("load", function () {
         yearElemet = node.textContent.match(curentYear);
 
         if (yearElemet != null) {
-            dateElement = Number(node.textContent.match(/[\d]{2}/)[0].split(",")[0]);
+dateElement = Number(node.textContent.match(/[\d]{1,2}$/)[0].split(",")[0]);
             for (var el of arr) {
                 if (node.textContent.search(el) > -1) {
                     indexMonthElement = arr.findIndex((i) => i == el);
                 }
             }
             easterElement = new Date(
-                `${yearElemet}/${indexMonthElement}/${dateElement}`
+                `${yearElemet}/${indexMonthElement+1}/${dateElement}`
             );
             //=-=-=-=-=-=-=-=-=-=-=-=-=-
             if (moment.getTime() < easterElement.getTime()) {
@@ -78,4 +69,12 @@ window.addEventListener("load", function () {
     document.location.replace("#easter");
 });
 
-document.querySelector(".copyright-year").innerHTML = new Date().getFullYear();
+elem = document.querySelector(".copyright-year");
+if (elem) {
+  
+elem.innerHTML = new Date().getFullYear();
+
+} else {
+ console.log("The ensss") 
+}
+
