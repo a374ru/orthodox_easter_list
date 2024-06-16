@@ -55,31 +55,31 @@ header {
 	height: auto;
 }
 
-
 p {
 	padding: 0 12px;
-	font-size: 1.3rem;}
+	font-size: 1.3rem;
+}
 
 .badge {
 	font-size: 1em;
-	/* color: #050505d9; */
+	color: #ffffffd9;
 	padding: 7px;
 	border-radius: 4px;
-	border: 0.5px double #a5a5a5;
+	border: 0.5px double #a75a5a;
 	line-height: 180%;
 	margin: 0 0.5rem;
-	background-color: #f4f4f4;
+	background-color: #e34234;
 	white-space: nowrap;
 	box-shadow: 0px 0px 4px #0003;
-	/* overflow-x: hidden; */
-	text-overflow: ellipsis;
+	overflow-x: hidden;
+	/* text-overflow: ellipsis; */
 }
 
 .badge:hover {
 	/* color: #eee7e699; */
-	background-color: #f4f4f499;
-	box-shadow: 0px 2px 3px #0008 inset;
-	border: 1px double #0003;
+	background-color: #000000;
+	/* box-shadow: 0px 2px 3px #0008 inset;
+	border: 1px double #0003; */
 }
 
 .badge-link {
@@ -125,9 +125,9 @@ p {
 	float: right;
 	top: 23dvh;
 	right: 5vw;
-    padding: 0.5em;
-    /*	width: 9%;*/
-    /*	height: 3em;*/
+	padding: 0.5em;
+	/*	width: 9%;*/
+	/*	height: 3em;*/
 	/* border-radius: 50%; */
 	/* box-shadow   : 0px 0px 3px #0007; */
 	align-items: center;
@@ -178,7 +178,6 @@ a:hover {
 	font-size: larger;
 	text-align: right;
 	color: rgba(255, 255, 245, 0.399);
-
 }
 
 .top-menu-title {
@@ -299,4 +298,3 @@ a:hover {
 		transform: scale3d(1, 1, 1);
 	}
 }
-
