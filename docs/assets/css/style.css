@@ -8,7 +8,7 @@
 */
 /* template greed */
 /*///////////////////////////////////*/
-@import url('template-greed-ystm.css');
+/* @import url('template-greed-ystm.css'); */
 /*///////////////////////////////////*/
 
 /* @font-face {
@@ -53,8 +53,10 @@ body {
 
 header {
 	height: auto;
+	top: 0;
+	position: sticky;
+	z-index: 333;
 }
-
 p {
 	padding: 0 12px;
 	font-size: 1.3rem;
@@ -155,6 +157,7 @@ li {
 
 h1 {
 	font-weight: 800;
+	padding: 0px 12px;
 }
 
 a,
@@ -170,8 +173,8 @@ a:hover {
 .last-easter {
 	color: #e34234bd;
 	box-shadow: #0007 0px 0px 77px;
-	font-size: 0.9lh;
-	padding: 2% 2% 2% 3vw;
+	/* font-size: 0.8lh; */
+	/* padding: 2% 2% 2% 3vw; */
 }
 
 .copyright {
@@ -219,7 +222,7 @@ a:hover {
 @media (max-width: 526px) {
 	.last-easter {
 		box-shadow: none;
-		font-size: 1.1em;
+		/* font-size: 1.1em; */
 		padding: 0;
 	}
 
