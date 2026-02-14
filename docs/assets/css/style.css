@@ -197,6 +197,12 @@ a:hover {
 	box-shadow: 0px 5px 20px 12px #0007;
 	backdrop-filter: blur(12px);
 }
+@media (orientation: landscape) {
+	.clickXB {
+		background-color: #e34234;
+		top: 53dvh;
+	}
+	}
 
 @media (max-width: 799px) {
 	.easter {
@@ -215,14 +221,11 @@ a:hover {
 	}
 
 	.general-properties {
-		background-color: #ff5d5d;
+		background-color: #ceaeab;
 		/* opacity: .9; */
 	}
 
-	.clickXB {
-		background-color: #e34234;
-		top: 53dvh;
-	}
+	
 }
 
 @media (max-width: 526px) {
