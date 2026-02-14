@@ -220,10 +220,15 @@ a:hover {
 
 	.clickXB {
 		background-color: #e34234;
+		top: 53dvh;
 	}
 }
 
 @media (max-width: 526px) {
+clickXB {
+		background-color: #e34234;
+		top: 23dvh;
+	}
 	.last-easter {
 		box-shadow: none;
 		/* font-size: 1.1em; */
