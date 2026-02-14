@@ -24,7 +24,8 @@
 	font-display: auto;
 	/* src: url('../font/IrmUcs.ttf'); */
 	/* src: url('../font/Clunya-IrmIEUcs.otf'); */
-	src: local('Clunya-IrmIEUcs'),
+	src:
+		local('Clunya-IrmIEUcs'),
 		url('https://fonts.a374.ru/Clunya-IrmIEUcs.otf');
 	font-weight: normal;
 	font-style: normal;
@@ -198,9 +199,9 @@ a:hover {
 }
 
 @media (max-width: 799px) {
-.easter {
-
-	max-width: 50vw;}
+	.easter {
+		max-width: 50vw;
+	}
 	.top-menu > a {
 		font-size: large;
 	}
@@ -225,7 +226,7 @@ a:hover {
 }
 
 @media (max-width: 526px) {
-clickXB {
+	.clickXB {
 		background-color: #e34234;
 		top: 23dvh;
 	}
